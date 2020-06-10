@@ -1,0 +1,1107 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Linux and VMs · title</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-solarizedlight.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-bibtex-indexed-cite/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-page-footer-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="2-programmingandscripting.html" />
+    
+    
+    <link rel="prev" href="0-basicprinciples.html" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"hoppersroppers","repo":"ctf","type":"star","size":"small","count":true}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Capture the Flags</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../chapter_0/0-thecompetitiveteam.html">
+            
+                <a href="../chapter_0/0-thecompetitiveteam.html">
+            
+                    
+                    The Competitive Team
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../chapter_0/1-jeopardystyle.html">
+            
+                <a href="../chapter_0/1-jeopardystyle.html">
+            
+                    
+                    Jeopardy Style
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../chapter_0/2-jointheteam.html">
+            
+                <a href="../chapter_0/2-jointheteam.html">
+            
+                    
+                    Join the Team
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../chapter_0/3-whatyouwilllearn.html">
+            
+                <a href="../chapter_0/3-whatyouwilllearn.html">
+            
+                    
+                    What You Will Learn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">CTF Meta</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0-basicprinciples.html">
+            
+                <a href="0-basicprinciples.html">
+            
+                    
+                    Basic Principles
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="2.2" data-path="1-linuxandvms.html">
+            
+                <a href="1-linuxandvms.html">
+            
+                    
+                    Linux and VMs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="2-programmingandscripting.html">
+            
+                <a href="2-programmingandscripting.html">
+            
+                    
+                    Programming and Scripting 
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">File Forensics</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../chapter_2/0-ctfmeta.html">
+            
+                <a href="../chapter_2/0-ctfmeta.html">
+            
+                    
+                    CTF Meta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../chapter_2/1-representingdata1.html">
+            
+                <a href="../chapter_2/1-representingdata1.html">
+            
+                    
+                    Representing Data 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../chapter_2/2-representingdata2.html">
+            
+                <a href="../chapter_2/2-representingdata2.html">
+            
+                    
+                    Representing Data 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../chapter_2/3-filecarving1.html">
+            
+                <a href="../chapter_2/3-filecarving1.html">
+            
+                    
+                    File Carving 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../chapter_2/4-filecarving2.html">
+            
+                <a href="../chapter_2/4-filecarving2.html">
+            
+                    
+                    File Carving 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="../chapter_2/5-filecarving3.html">
+            
+                <a href="../chapter_2/5-filecarving3.html">
+            
+                    
+                    File Carving 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="../chapter_2/6-filecarving4.html">
+            
+                <a href="../chapter_2/6-filecarving4.html">
+            
+                    
+                    File Carving 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="../chapter_2/7-filecarving5.html">
+            
+                <a href="../chapter_2/7-filecarving5.html">
+            
+                    
+                    File Carving 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="../chapter_2/8-filemetadata.html">
+            
+                <a href="../chapter_2/8-filemetadata.html">
+            
+                    
+                    File Metadata
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="../chapter_2/9-filemetadata2.html">
+            
+                <a href="../chapter_2/9-filemetadata2.html">
+            
+                    
+                    File Metadata 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="../chapter_2/10-steganography1.html">
+            
+                <a href="../chapter_2/10-steganography1.html">
+            
+                    
+                    Steganography 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="../chapter_2/11-steganography2.html">
+            
+                <a href="../chapter_2/11-steganography2.html">
+            
+                    
+                    Steganography 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Host Forensics</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../chapter_3/0-hostforensics.html">
+            
+                <a href="../chapter_3/0-hostforensics.html">
+            
+                    
+                    Host Forensics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Memory Forensics</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../chapter_4/0-memoryforensics.html">
+            
+                <a href="../chapter_4/0-memoryforensics.html">
+            
+                    
+                    Memory Forensics
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Network Forensics</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../chapter_5/0-ctfmeta.html">
+            
+                <a href="../chapter_5/0-ctfmeta.html">
+            
+                    
+                    CTF Meta 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../chapter_5/1-wireshark.html">
+            
+                <a href="../chapter_5/1-wireshark.html">
+            
+                    
+                    Wireshark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.3" data-path="../chapter_5/2-tshark.html">
+            
+                <a href="../chapter_5/2-tshark.html">
+            
+                    
+                    tShark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.4" data-path="../chapter_5/3-networkingrfcs1.html">
+            
+                <a href="../chapter_5/3-networkingrfcs1.html">
+            
+                    
+                    Networking RFCs 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.5" data-path="../chapter_5/4-networkingrfcs2.html">
+            
+                <a href="../chapter_5/4-networkingrfcs2.html">
+            
+                    
+                    Networking RFCs 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.6" data-path="../chapter_5/5-netforensics1.html">
+            
+                <a href="../chapter_5/5-netforensics1.html">
+            
+                    
+                    NetForensics 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.7" data-path="../chapter_5/6-netforensics2.html">
+            
+                <a href="../chapter_5/6-netforensics2.html">
+            
+                    
+                    NetForensics 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.8" data-path="../chapter_5/7-netforensics3.html">
+            
+                <a href="../chapter_5/7-netforensics3.html">
+            
+                    
+                    NetForensics 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.9" data-path="../chapter_5/8-netforensics4.html">
+            
+                <a href="../chapter_5/8-netforensics4.html">
+            
+                    
+                    NetForensics 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.10" data-path="../chapter_5/9-netforensics5.html">
+            
+                <a href="../chapter_5/9-netforensics5.html">
+            
+                    
+                    NetForensics 5
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.11" data-path="../chapter_5/10-netforensics6.html">
+            
+                <a href="../chapter_5/10-netforensics6.html">
+            
+                    
+                    NetForensics 6
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.12" data-path="../chapter_5/11-netforensics7.html">
+            
+                <a href="../chapter_5/11-netforensics7.html">
+            
+                    
+                    NetForensics 7
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Cryptography</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../chapter_6/0-ctfmeta.html">
+            
+                <a href="../chapter_6/0-ctfmeta.html">
+            
+                    
+                    CTF Meta 
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../chapter_6/1-classicalciphers.html">
+            
+                <a href="../chapter_6/1-classicalciphers.html">
+            
+                    
+                    Classical Ciphers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../chapter_6/2-frequencyanalysis.html">
+            
+                <a href="../chapter_6/2-frequencyanalysis.html">
+            
+                    
+                    Frequency Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../chapter_6/3-automatedfrequencyanalysis.html">
+            
+                <a href="../chapter_6/3-automatedfrequencyanalysis.html">
+            
+                    
+                    Automated Frequency Analysis
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.5" data-path="../chapter_6/4-indexofcoincidence.html">
+            
+                <a href="../chapter_6/4-indexofcoincidence.html">
+            
+                    
+                    Index of Coincidence
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.6" data-path="../chapter_6/5-caesarciphersandsubstitution.html">
+            
+                <a href="../chapter_6/5-caesarciphersandsubstitution.html">
+            
+                    
+                    Caesar Ciphers and Substitution
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.7" data-path="../chapter_6/6-vigenereciphers.html">
+            
+                <a href="../chapter_6/6-vigenereciphers.html">
+            
+                    
+                    Vigenere Ciphers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.8" data-path="../chapter_6/7-funciphers.html">
+            
+                <a href="../chapter_6/7-funciphers.html">
+            
+                    
+                    Fun Ciphers
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.9" data-path="../chapter_6/8-moderncryptography.html">
+            
+                <a href="../chapter_6/8-moderncryptography.html">
+            
+                    
+                    Modern Cryptography
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.10" data-path="../chapter_6/9-moderncrypto.html">
+            
+                <a href="../chapter_6/9-moderncrypto.html">
+            
+                    
+                    Modern Crypto
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.11" data-path="../chapter_6/10-passwords.html">
+            
+                <a href="../chapter_6/10-passwords.html">
+            
+                    
+                    Passwords
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.12" data-path="../chapter_6/11-hashes.html">
+            
+                <a href="../chapter_6/11-hashes.html">
+            
+                    
+                    Hashes
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.13" data-path="../chapter_6/12-xor.html">
+            
+                <a href="../chapter_6/12-xor.html">
+            
+                    
+                    XOR
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.14" data-path="../chapter_6/13-rsa.html">
+            
+                <a href="../chapter_6/13-rsa.html">
+            
+                    
+                    RSA
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.15" data-path="../chapter_6/14-thingsyoushouldnttrytodo.html">
+            
+                <a href="../chapter_6/14-thingsyoushouldnttrytodo.html">
+            
+                    
+                    Things You Shouldnt Try to Do
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Web Exploitation</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../chapter_7/0-ctfmeta.html">
+            
+                <a href="../chapter_7/0-ctfmeta.html">
+            
+                    
+                    CTF Meta
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../chapter_7/1-howwebsite.html">
+            
+                <a href="../chapter_7/1-howwebsite.html">
+            
+                    
+                    How Website
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../chapter_7/2-underthehood.html">
+            
+                <a href="../chapter_7/2-underthehood.html">
+            
+                    
+                    Under the Hood
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.4" data-path="../chapter_7/3-sqlinjection.html">
+            
+                <a href="../chapter_7/3-sqlinjection.html">
+            
+                    
+                    SQL Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.5" data-path="../chapter_7/4-commandinjection.html">
+            
+                <a href="../chapter_7/4-commandinjection.html">
+            
+                    
+                    Command Injection
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.6" data-path="../chapter_7/5-directorytraversal.html">
+            
+                <a href="../chapter_7/5-directorytraversal.html">
+            
+                    
+                    Directory Traversal
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.7" data-path="../chapter_7/6-crosssiterequestforgery.html">
+            
+                <a href="../chapter_7/6-crosssiterequestforgery.html">
+            
+                    
+                    Cross Site Request Forgery
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.8" data-path="../chapter_7/7-crosssitescripting.html">
+            
+                <a href="../chapter_7/7-crosssitescripting.html">
+            
+                    
+                    Cross Site Scripting
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.9" data-path="../chapter_7/8-serversiderequestforgery.html">
+            
+                <a href="../chapter_7/8-serversiderequestforgery.html">
+            
+                    
+                    Server Side Request Forgery
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Reversing and Binary Exploitation</li>
+        
+        
+    
+        <li class="chapter " data-level="9.1" data-path="../chapter_8/0-youwontlearnthathere.html">
+            
+                <a href="../chapter_8/0-youwontlearnthathere.html">
+            
+                    
+                    You Wont Learn That Here
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">picoCTF</li>
+        
+        
+    
+        <li class="chapter " data-level="10.1" data-path="../chapter_9/0-competeandlearn.html">
+            
+                <a href="../chapter_9/0-competeandlearn.html">
+            
+                    
+                    Compete and Learn
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Linux and VMs</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="linux-and-vms">Linux and VMs</h1>
+<p><a href="https://academy.hoppersroppers.org/mod/page/view.php?id=565" target="_blank">Check out our free course!</a></p>
+<p>You should have validated this prior to registering for the course. There is a huge range of experience someone can have with Linux and VMs, so I don&apos;t make any attempt at pre-scribing what skills you should have.</p>
+<p>If you are not sure if you should validate this, in my opinion the best way to see if you are ready is to play the Bandit CTF challenges up to level 14. <a href="http://overthewire.org/wargames/bandit/" target="_blank">http://overthewire.org/wargames/bandit/</a></p>
+<p>If you can roll through those without too much trouble, you should be fine. If not, I recommend you check out the <a href="https://linuxjourney.com/" target="_blank">https://linuxjourney.com/</a> resources and go through all of the Grasshopper and Journeyman material prior to trying to work your way through Bandit again. </p>
+<p><a href="https://academy.hoppersroppers.org/mod/page/view.php?id=565" target="_blank">Visit the course page!</a> </p>
+<footer class="page-footer-ex"> <span class="page-footer-ex-copyright"> Hoppers Roppers 2020 </span> &#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0;&#xA0; <span class="page-footer-ex-footer-update"> Date&#xFF1A; 2020-06-10 23:03:16 </span> </footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0-basicprinciples.html" class="navigation navigation-prev " aria-label="Previous page: Basic Principles">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="2-programmingandscripting.html" class="navigation navigation-next " aria-label="Next page: Programming and Scripting ">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Linux and VMs","level":"2.2","depth":1,"next":{"title":"Programming and Scripting ","level":"2.3","depth":1,"path":"chapter_1/2-programmingandscripting.md","ref":"chapter_1/2-programmingandscripting.md","articles":[]},"previous":{"title":"Basic Principles","level":"2.1","depth":1,"path":"chapter_1/0-basicprinciples.md","ref":"chapter_1/0-basicprinciples.md","articles":[]},"dir":"ltr"},"config":{"plugins":["-lunr","-search","search-pro","-sharing","github-buttons","editlink","ga","-highlight","prism","bibtex-indexed-cite","page-footer-ex","splitter","todo","copy-code-button","expandable-chapters-small"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{"ignore":["mermaid","eval-js"],"css":["prismjs/themes/prism-solarizedlight.css"]},"editlink":{"label":"Edit","multilingual":false,"base":"https://github.com/hoppersroppers/ctf/blob/master"},"todo":{},"page-footer-ex":{"copyright":"Hoppers Roppers 2020","markdown":true,"update_format":"YYYY-MM-DD HH:mm:ss","update_label":"Date："},"splitter":{},"search-pro":{"cutWordLib":"nodejieba","defineWord":["Gitbook Use"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"showLevel":false},"bibtex-indexed-cite":{"path":"/"},"github-buttons":{"buttons":[{"user":"hoppersroppers","repo":"ctf","type":"star","size":"small","count":true}]},"expandable-chapters-small":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-151638088-2"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"bibCount":0,"variables":{},"title":"title","bib":[],"gitbook":"*"},"file":{"path":"chapter_1/1-linuxandvms.md","mtime":"2020-06-10T23:03:16.228Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-06-10T23:04:04.865Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
