@@ -1,5 +1,5 @@
 # CTF Meta 
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 Cryptography is often considered to be one of the harder challenge types because many of the problems require deep specialization to understand. However, we are not teaching deep specialization in this course, we are teaching quick and dirty techniques to solve problems and find resources.
 
 There are a variety of common crypto problems such as:

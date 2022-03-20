@@ -1,5 +1,5 @@
 # tShark Tutorial
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 tShark is a command line tool to do the same things that Wireshark does. It is pretty awesome and allows you to script complex activities that you could never do in Wireshark. tShark should be your go to tool to solve these sort of problems.
 
 Follow this tutorial: <https://hackertarget.com/tshark-tutorial-and-filter-examples/>

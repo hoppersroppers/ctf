@@ -1,5 +1,5 @@
 # Forensics Meta IP
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 Resources:
 
 * http://www.abchs.com/xsecure/chs/coursedocs/SSI_R1/pdf/DigitalForensics.pdf

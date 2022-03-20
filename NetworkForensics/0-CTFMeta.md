@@ -1,5 +1,5 @@
-# CTF Meta 
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+# CTF Meta
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 Forensics can include a number of elements mixed together such as:
 
 * Network (pcap files or other traffic logs)

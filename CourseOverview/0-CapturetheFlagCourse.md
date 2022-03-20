@@ -1,5 +1,5 @@
 # Capture the Flag Course
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 Hey! [I'm Dennis](https://www.hoppersroppers.org/about.html), the person behind Hopper's Roppers. 
 
 This is the Roppers Academy Capture the Flag course. It is the second course in the [roadmap](https://www.hoppersroppers.org/roadmap/) I use to guide students towards the best resources available, instead of overloading them with options and a list of websites. I strongly believe that the best way to learn is by doing, and nothing gets you doing faster than participating in Capture the Flag competitions. Your ability will be stretched, your motivation will be tested, and most importantly, you will be forced to learn new things in short periods of time. The single best predictor of success in just about anything is an individual's ability to look at a problem and determine how to solve it by themselves using the knowledge and resources available to them. CTFs teach that skill in a way nothing else can. 

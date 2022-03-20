@@ -1,5 +1,5 @@
 # Pwntools Problems
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 A common scripting problem is connecting to web socket/SSH server and then doing some scripted activity. You should implement these problems using Pwntools rather than trying to make your own with Python sockets or gasp, something in C. <https://github.com/Gallopsled/pwntools>
 
 

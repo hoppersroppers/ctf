@@ -1,5 +1,5 @@
 # Basic Principles
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 ## Flag Format
 
 Most of the time the flag format will be an ASCII string that you discover during the course of the problem.

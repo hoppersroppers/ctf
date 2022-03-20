@@ -1,5 +1,5 @@
 # PicoCTF
-##  [Register for the Free Course Today!](https://www.hoppersroppers.org/courseCTF.html)
+##  [Register for the Free Course Today!](https://www.roppers.org/courses/ctf)
 Our goal throughout this course was to teach you the most essential skills and introduce you the most important resources so that you are able to solve problems in a CTF by yourself. All the words, concepts, and tools we have introduced have led you to this point.
 
 Now you are going to go compete in the 2019 picoCTF!
