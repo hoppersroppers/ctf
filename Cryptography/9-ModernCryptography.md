@@ -1,2 +1,0 @@
-# Modern Cryptography
-Modern Cryptography

@@ -1,4 +1,15 @@
 # File Carving 3
-Follow this walkthrough: <https://blog.stalkr.net/2010/05/defcon-18-ctf-quals-writeup-forensics.html>
 
-Submit a sentence or two on what you had to do to solve this challenge and anything you struggled with understanding.
+Read through this writeup. This one is hard to do now because it was
+mostly on Twitter and things have disappeared, so just read through it
+to understand how it worked. 
+
+  
+
+Tons of CTF challenges use sites like Twitter or Facebook, or even more
+niche sites like dating apps to host challenges and make them more
+interesting.
+
+  
+
+<https://the-bilal-rizwan.medium.com/intigriti-ctf-writeup-737009900a42> 

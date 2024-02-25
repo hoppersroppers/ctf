@@ -43,17 +43,8 @@
     "ga": {
       "token": "UA-151638088-2"
     },
-    "prism": {
-      "ignore": [
-        "mermaid",
-        "eval-js"
-      ],
-      "css": [
-        "prismjs/themes/prism-solarizedlight.css"
-      ]
-    },
     "page-footer-ex": {
-      "copyright": "Hoppers Roppers 2020",
+      "copyright": "Hoppers Roppers 2024",
       "markdown": true,
       "update_label": "Date：",
       "update_format": "YYYY-MM-DD HH:mm:ss"
