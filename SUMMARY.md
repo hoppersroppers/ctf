@@ -7,7 +7,6 @@
 * [What You Will Learn](Welcome/2-WhatYouWillLearn.md)
 * [What is a CTF](Welcome/3-WhatisaCTF.md)
 * [Why CTFs](Welcome/4-WhyCTFs.md)
-* [Prior Experience Survey](Welcome/5-PriorExperienceSurvey.md)
 
 ## CTF Meta
 
@@ -16,7 +15,6 @@
 * [Basic Principles](CTFMeta/2-BasicPrinciples.md)
 * [Required Knowledge](CTFMeta/3-RequiredKnowledge.md)
 * [Writeups and Walkthroughs](CTFMeta/4-WriteupsandWalkthroughs.md)
-* [Chapter Survey 1](CTFMeta/5-ChapterSurvey1.md)
 
 ## Encoding and Classic Encryption
 
@@ -32,7 +30,6 @@
 * [Other Classic Ciphers](EncodingandClassicEncryption/9-OtherClassicCiphers.md)
 * [Vigenere Ciphers](EncodingandClassicEncryption/10-VigenereCiphers.md)
 * [Your First XOR](EncodingandClassicEncryption/11-YourFirstXOR.md)
-* [Chapter Survey 2](EncodingandClassicEncryption/12-ChapterSurvey2.md)
 
 ## File Forensics
 
@@ -48,7 +45,6 @@
 * [File Metadata 1](FileForensics/9-FileMetadata1.md)
 * [File Metadata 2](FileForensics/10-FileMetadata2.md)
 * [File Carving 4](FileForensics/11-FileCarving4.md)
-* [Chapter Survey 3](FileForensics/12-ChapterSurvey3.md)
 
 ## Modern Crypto
 
@@ -57,7 +53,6 @@
 * [RSA](ModernCrypto/2-RSA.md)
 * [Things You Shouldnt Try to Do](ModernCrypto/3-ThingsYouShouldntTrytoDo.md)
 * [Hacker Math](ModernCrypto/4-HackerMath.md)
-* [Chapter Survey 4](ModernCrypto/5-ChapterSurvey4.md)
 
 ## Miscellaneous
 
@@ -67,7 +62,6 @@
 * [Cryptocurrency](Miscellaneous/3-Cryptocurrency.md)
 * [Restricted Shells](Miscellaneous/4-RestrictedShells.md)
 * [Everything Else](Miscellaneous/5-EverythingElse.md)
-* [Chapter Survey 5](Miscellaneous/6-ChapterSurvey5.md)
 
 ## Web Exploitation
 
@@ -80,7 +74,6 @@
 * [Directory Traversal](WebExploitation/6-DirectoryTraversal.md)
 * [Javascript for Hackers aka XSS](WebExploitation/7-JavascriptforHackersakaXSS.md)
 * [Web Crypto](WebExploitation/8-WebCrypto.md)
-* [Chapter Survey 7](WebExploitation/9-ChapterSurvey7.md)
 
 ## Forensics
 
@@ -89,7 +82,6 @@
 * [Host Forensics Meta](Forensics/2-HostForensicsMeta.md)
 * [Host Forensics Walkthroughs](Forensics/3-HostForensicsWalkthroughs.md)
 * [Memory Forensics Walkthroughs](Forensics/4-MemoryForensicsWalkthroughs.md)
-* [Chapter Survey 6](Forensics/5-ChapterSurvey6.md)
 
 ## RevEng and Binex
 
